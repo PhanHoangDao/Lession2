@@ -1,0 +1,6 @@
+Mô tả cài đặt và chạy source:
+1.Cài đặt:
+	-Mở xampp và tạo database có tên categories, sau đó mở file categories.sql đính kèm để tạo database
+	- cài đặt source từ link git và checkout qua nhánh test
+2.Run
+	Mở terminal và chạy lệnh: php -S localhost:3000 (mở xampp)
