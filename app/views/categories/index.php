@@ -44,7 +44,8 @@
                 <?php
                 
                 $sortedData = $cate->sortByParentId($data_cate);
-                $cate->paginate($sortedData);
+                $cate->showCategories($sortedData);
+                // $cate->paginate($sortedData);
             ?>
     </div>
 </div>
